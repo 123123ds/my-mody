@@ -1,38 +1,266 @@
-.App {
+.html,body{
+  margin: 0%;
+  padding: 0%;
+}
+
+.MainNav{
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  background: white;
+  z-index: 1;
+}
+
+.Mainname{
+  position: absolute;
+  width: 3%;
+  height: 5%;
+  font-size: 30px;
+  font-weight:500;
+  text-shadow: 1px 1px 1px rgb(222, 236, 255);
+  left: 10%;
+  bottom:25px;
+  color:rgb(95, 222, 239);
+  font-family: 'Fredoka One', cursive;
+}
+
+.MainUl{
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  top: 22%;
+  left: 20%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.MainUl li {
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+  float: left;
+  width: 18%;
+  left: 5%;
+  height: 100%;
+  font-size: 12px;
+  list-style: none;
   text-align: center;
+  line-height:2.6;
+  font-weight: 200;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login{
+  position: absolute;
+  top: 15%;
+  left: 77%;
+  width: 300px;
+  height: 60px;
+  font-size: 10px;
+  font-weight: 300;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.login ul{
+  list-style: none;
+}
+
+.login li{
+  float: left;
+  margin-left: 80px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+  .searchbox{
+    position: absolute;
+    left: 58%;
+    top: 22%;
+    width: 30%;
+    bottom: 38px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  #search1{
+    border: none;
+    background: rgb(226, 226, 226);
+    border-radius: 4px;
+    width: 180px;
+    height: 30px;
   }
-  to {
-    transform: rotate(360deg);
+
+  #submit{
+    position: relative;
+    border-radius: 4px;
+    left: 10px;
+    top: 10%;
+    border: none;
+    height: 30px;
   }
+
+.maintema{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 6%;
+  background: rgb(206, 249, 255);
+}
+
+.textbox{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  color: black;
+  left: 18%;
+  top: 27%;
+}
+
+#textbox1{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.nextbox{
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  border-radius: 4px;
+  text-align: center;
+  background: white;
+  color: gray;
+  box-shadow: 1px 1px 2px gray;
+  line-height: 3.6;
+  font-weight: 600;
+}
+.mainteamaction{
+  position: absolute;
+  left: 48%;
+  background-image: url('일러스트.png');
+  width: 600px;
+  height: 340px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 25%;
+}
+
+.maintema2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 86%;
+}
+
+.leftbox{
+  position: absolute;
+  width: 50%;
+  height: 90%;
+  top: 0%;
+  border: solid gray;
+  border-width: 1px 1px 1px 0px;
+}
+
+.rightbox{
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  height: 90%;
+  top: 0%;
+  border: solid gray;
+  border-width: 1px 0px 1px 0px;
+}
+
+.rightbox1{
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  top: 11%;
+  left: 5%;
+}
+
+.rightbox1 ul{
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  top: 12%;
+  left: 5%;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.rightbox1 li{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  list-style: none;
+  top: 5%;
+  left: 10%;
+  margin: 0%;
+  padding: 0%;
+  float: left;
+  border: 1px solid black;
+}
+
+.rightbox1 li:nth-child(2){
+  position: absolute;
+  left: 60%;
+}
+.rightbox1 li:nth-child(3){
+  position: absolute;
+  top: 50%;
+}
+.rightbox1 li:nth-child(4){
+  position: absolute;
+  left: 60%;
+  top: 50%;
+}
+
+
+
+#rightname{
+  position: absolute;
+  font-size: 24px;
+  left: 5%;
+  top: 2%;
+  font-weight: 500;
+  color: gray;
+  font-family: 'Jua', sans-serif;
+}
+
+#leftul{
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  height: 700px;
+  margin: 0%;
+  padding: 0%;
+  top: 10%;
+  border: 1px solid black;
+}
+
+#leftname{
+  position: absolute;
+  font-size: 24px;
+  left: 5%;
+  top: 2%;
+  font-weight: 500;
+  color: gray;
+  font-family: 'Jua', sans-serif;
+}
+
+#leftul li{
+ list-style: none;
+ width: 100%;
+ height: 8%;
+ text-align: center;
+ border:solid black;
+ line-height: 3.5;
+ border-width: 0px 0px 1px 0px;
+}
+
+
+.maintema3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 186%;
+  border: 1px solid black;
 }
